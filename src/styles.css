@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+#input {
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  border-color: red;
+}
+#ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.one-coutry-item {
+  margin: auto;
+}
+.one-coutry-title {
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.one-coutry-first-text {
+  color: red;
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+.one-coutry-second-text {
+  color: green;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.one-coutry-list {
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+.one-coutry-list-item {
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+  color: grey;
+}
+.one-coutry-img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.li-item {
+  color: red;
+  padding: 10px;
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+}

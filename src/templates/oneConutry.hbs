@@ -1,0 +1,14 @@
+{{#each this}}
+<li class="one-coutry-item">
+    <h2 class="one-coutry-title">{{name}}</h2>
+    <p class="one-coutry-first-text">Capital: {{capital}}</p>
+    <p class="one-coutry-second-text">Population: {{population}}</p>
+    <ul class="one-coutry-list">Languages:
+        {{#each languages}}
+        <li class="one-coutry-list-item">{{nativeName}}</li>
+        {{/each}}
+    </ul>
+    <img src={{flag}} alt="" class="one-coutry-img">
+</li>
+
+{{/each}}
